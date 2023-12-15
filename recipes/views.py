@@ -6,8 +6,3 @@ def home(request):
         'name': 'Fabiano Souza'
     })
 
-def sobre(request):
-    return HttpResponse('sobre')
-
-def contato(request):
-    return HttpResponse('contato')
